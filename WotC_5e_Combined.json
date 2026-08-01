@@ -414198,26 +414198,6 @@
           "level": 1,
           "features": [
             {
-              "id": "cf_warlock_1_pact_magic",
-              "name": "Pact Magic",
-              "description": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the warlock spell list.\n Cantrips. You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.\n Spell Slots. The Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest. For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.\n Spells Known of 1st Level and Higher. At 1st level, you know two 1st-level spells of your choice from the warlock spell list. The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level. Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n Spellcasting Ability. Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one. Spell save DC = 8 + Charisma modifier + Proficiency Bonus\n Spell attack modifier = Charisma modifier + Proficiency Bonus\n Spellcasting Focus. You can use an arcane focus as a spellcasting focus for your warlock spells.\n Warlock Spells Known: Level | Spells Known 1 | 2 2 | 3 3 | 4 4 | 5 5 | 6 6 | 7 7 | 8 8 | 9 9 | 10 10 | 10 11 | 11 12 | 11 13 | 12 14 | 12 15 | 13 16 | 13 17 | 14 18 | 14 19 | 15 20 | 15",
-              "source": "Player's Handbook (2014) p. 105",
-              "resolution": "automatic",
-              "resolutionNotes": [
-                "Pact slots, slot level, and Short Rest recovery are automatic; spell selection is handled by class progression."
-              ]
-            },
-            {
-              "id": "cf_warlock_1_otherworldly_patron",
-              "name": "Otherworldly Patron",
-              "description": "At 1st level, you have struck a bargain with an otherworldly being chosen from the list of available patrons. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.",
-              "source": "Player's Handbook (2014) p. 105",
-              "resolution": "manual",
-              "resolutionNotes": [
-                "Reviewed and intentionally manual: the subclass-selection header. The choice itself is made through the subclass system; this card has no independent mechanical content."
-              ]
-            },
-            {
               "id": "cf_warlock_1_expanded_spell_list_the_archfey",
               "name": "Expanded Spell List (The Archfey)",
               "description": "The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. Archfey Expanded Spells: Spell Level | Spells 1st | faerie fire, sleep 2nd | calm emotions, phantasmal force 3rd | blink, plant growth 4th | dominate beast, greater invisibility 5th | dominate person, seeming",
@@ -414678,6 +414658,7 @@
               "description": "The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. Hexblade Expanded Spells: Spell Level | Spells 1st | shield, wrathful smite 2nd | blur, branding smite 3rd | blink, elemental weapon 4th | phantasmal killer, staggering smite 5th | banishing smite, cone of cold",
               "source": "Xanathar's Guide to Everything p. 55",
               "resolution": "mixed",
+              "hidden": true,
               "subclass": "sc_warlock_the_hexblade",
               "effects": [
                 {
@@ -415076,6 +415057,7 @@
               "description": "In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability. At 2nd level, you gain two eldritch invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice. You gain an additional invocation at 5th, 7th, 9th, 12th, 15th, and 18th warlock level. A level prerequisite refers to your level in this class. Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level. A level prerequisite in an invocation refers to warlock level, not character level.\n Invocations Known: Level | Invocations 2nd | 2 5th | 3 7th | 4 9th | 5 12th | 6 15th | 7 18th | 8",
               "source": "Player's Handbook (2014) p. 105",
               "resolution": "automatic",
+              "hidden": true,
               "talent": {
                 "kind": "invocation",
                 "known": {
@@ -415099,16 +415081,6 @@
         {
           "level": 3,
           "features": [
-            {
-              "id": "cf_warlock_3_pact_boon",
-              "name": "Pact Boon",
-              "description": "At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.",
-              "source": "Player's Handbook (2014) p. 105",
-              "resolution": "manual",
-              "resolutionNotes": [
-                "Reviewed and intentionally manual: a \"choose one of the following\" header. The `selection` choice kind only carries a flavor label — it has no consumer that maps a chosen option to one of several structurally distinct effect bundles. Each sub-option is reviewed independently."
-              ]
-            },
             {
               "id": "cf_warlock_3_pact_boon_pact_of_the_chain",
               "name": "Pact Boon: Pact of the Chain",
@@ -415218,7 +415190,8 @@
               "name": "Additional Invocation",
               "description": "At 5th level, you learn an additional Eldritch Invocation.",
               "source": "Player's Handbook (2014) p. 107",
-              "resolution": "automatic"
+              "resolution": "automatic",
+              "hidden": true
             }
           ],
           "spellSlots": {
