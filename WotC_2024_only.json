@@ -128935,17 +128935,17 @@
                 {
                   "description": "Heal",
                   "level": 3,
-                  "formula": "2d8+%4"
+                  "formula": "2d8"
                 },
                 {
                   "description": "Heal",
                   "level": 9,
-                  "formula": "3d8+%4"
+                  "formula": "3d8"
                 },
                 {
                   "description": "Heal",
                   "level": 15,
-                  "formula": "4d8+%4"
+                  "formula": "4d8"
                 },
                 {
                   "description": "Add to Roll",
@@ -129715,7 +129715,7 @@
               "scalingRolls": [
                 {
                   "description": "Force Damage",
-                  "formula": "1d4+%4"
+                  "formula": "1d4"
                 }
               ],
               "resolution": "mixed"
@@ -131635,22 +131635,22 @@
                 {
                   "description": "Heal",
                   "level": 2,
-                  "formula": "1d8+%5"
+                  "formula": "1d8"
                 },
                 {
                   "description": "Heal",
                   "level": 7,
-                  "formula": "2d8+%5"
+                  "formula": "2d8"
                 },
                 {
                   "description": "Heal",
                   "level": 13,
-                  "formula": "3d8+%5"
+                  "formula": "3d8"
                 },
                 {
                   "description": "Heal",
                   "level": 18,
-                  "formula": "4d8+%5"
+                  "formula": "4d8"
                 }
               ],
               "resolution": "mixed"
@@ -131805,7 +131805,7 @@
               "scalingRolls": [
                 {
                   "description": "Radiant Damage",
-                  "formula": "2d10+%7"
+                  "formula": "2d10"
                 }
               ],
               "resolution": "mixed"
@@ -132117,7 +132117,7 @@
               "scalingRolls": [
                 {
                   "description": "Temporary Hit Points",
-                  "formula": "2d6+%5"
+                  "formula": "2d6"
                 }
               ],
               "resolution": "mixed"
@@ -132220,7 +132220,18 @@
               "name": "Level 7: Blessed Strikes: Potent Spellcasting",
               "description": "Add your Wisdom modifier to the damage you deal with any Cleric cantrip.",
               "source": "Player's Handbook (5.5e) p. 71",
-              "resolution": "manual"
+              "effects": [
+                {
+                  "type": "modifier",
+                  "target": "cantrip_damage",
+                  "mode": "bonus",
+                  "amount": {
+                    "kind": "ability_mod",
+                    "ability": "wis"
+                  }
+                }
+              ],
+              "resolution": "automatic"
             }
           ]
         },
@@ -137451,7 +137462,7 @@
               "scalingRolls": [
                 {
                   "description": "Temporary Hit Points",
-                  "formula": "1d8+%5"
+                  "formula": "1d8"
                 }
               ],
               "resolution": "mixed"
@@ -142794,7 +142805,7 @@
               "description": "Cold Damage"
             },
             {
-              "formula": "1d12+%3",
+              "formula": "1d12",
               "description": "Damage Reduction"
             },
             {
@@ -143106,6 +143117,7 @@
           "name": "Skillful",
           "description": "You gain proficiency in one skill of your choice.",
           "resolution": "automatic",
+          "hidden": true,
           "effects": [
             {
               "type": "proficiency_grant",
@@ -143125,6 +143137,7 @@
           "name": "Versatile",
           "description": "You gain an Origin feat of your choice (see chapter 5). Skilled is recommended.",
           "resolution": "automatic",
+          "hidden": true,
           "effects": [
             {
               "type": "feat_choice",
