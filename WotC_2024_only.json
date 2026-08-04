@@ -128893,13 +128893,6 @@
           },
           "features": [
             {
-              "id": "level_3_feature_1",
-              "name": "Level 3: Artificer Subclass",
-              "description": "You gain an Artificer subclass of your choice. A subclass is a specialization that grants you features at certain Artificer levels. For the rest of your career, you gain each of your subclass's features that are of your Artificer level or lower.",
-              "source": "Eberron: Forge of the Artificer p. 10",
-              "resolution": "manual"
-            },
-            {
               "id": "level_3_feature_3",
               "name": "Level 3: Tools of the Trade (Alchemist)",
               "description": "You gain the following benefits.\n\nTool Proficiency. You gain proficiency with Alchemist's Supplies and the Herbalism Kit. If you already have one of these proficiencies, you gain proficiency with one other type of Artisan's Tools of your choice (or with two other types if you have both).\n\nPotion Crafting. When you brew a potion using the crafting rules, the amount of time required to craft it is halved.",
@@ -128915,14 +128908,6 @@
                   ]
                 }
               ],
-              "resolution": "manual"
-            },
-            {
-              "id": "level_3_feature_4",
-              "name": "Level 3: Alchemist Spells (Alchemist)",
-              "description": "When you reach an Artificer level specified in the Alchemist Spells table, you thereafter always have the listed spells prepared.\n\nAlchemist Spells:\nLevel | Spells\n3 | Healing Word, Ray of Sickness\n5 | Flaming Sphere, Melf's Acid Arrow\n9 | Gaseous Form, Mass Healing Word\n13 | Death Ward, Vitriolic Sphere\n17 | Cloudkill, Raise Dead",
-              "source": "Eberron: Forge of the Artificer p. 13",
-              "subclass": "sc_artificer_alchemist",
               "resolution": "manual"
             },
             {
@@ -128976,14 +128961,6 @@
                   ]
                 }
               ],
-              "resolution": "manual"
-            },
-            {
-              "id": "level_3_feature_8",
-              "name": "Level 3: Armorer Spells (Armorer)",
-              "description": "When you reach an Artificer level specified in the Armorer Spells table, you thereafter always have the listed spells prepared.\n\nArmorer Spells:\nLevel | Spells\n3 | Magic Missile, Thunderwave\n5 | Mirror Image, Shatter\n9 | Hypnotic Pattern, Lightning Bolt\n13 | Fire Shield, Greater Invisibility\n17 | Passwall, Wall of Force",
-              "source": "Eberron: Forge of the Artificer p. 15",
-              "subclass": "sc_artificer_armorer",
               "resolution": "manual"
             },
             {
@@ -129069,14 +129046,6 @@
               "resolution": "manual"
             },
             {
-              "id": "level_3_feature_16",
-              "name": "Level 3: Artillerist Spells (Artillerist)",
-              "description": "When you reach an Artificer level specified in the Artillerist Spells table, you thereafter always have the listed spells prepared.\n\nArtillerist Spells:\nLevel | Spells\n3 | Shield, Thunderwave\n5 | Scorching Ray, Shatter\n9 | Fireball, Wind Wall\n13 | Ice Storm, Wall of Fire\n17 | Cone of Cold, Wall of Force",
-              "source": "Eberron: Forge of the Artificer p. 16",
-              "subclass": "sc_artificer_artillerist",
-              "resolution": "manual"
-            },
-            {
               "id": "level_3_feature_17",
               "name": "Level 3: Eldritch Cannon (Artillerist)",
               "description": "Using Smith's Tools or Woodcarver's Tools, you can take a Magic action to create a Small or Tiny Eldritch Cannon in an unoccupied space on a horizontal surface within 5 feet of yourself. The cannon's game statistics appear in the bestiary. You determine its appearance, including whether you carry it or not (and your choice of legs or wheels, for the latter). It disappears if it is reduced to 0 Hit Points or after 1 hour. You can dismiss it early as a Magic action. Once you create a cannon, you can't do so again until you finish a Long Rest or expend a spell slot to create one. You can have only one cannon at a time and can't create one while you already have one.",
@@ -129099,14 +129068,6 @@
                   ]
                 }
               ],
-              "resolution": "manual"
-            },
-            {
-              "id": "level_3_feature_20",
-              "name": "Level 3: Battle Smith Spells (Battle Smith)",
-              "description": "When you reach an Artificer level specified in the Battle Smith Spells table, you thereafter always have the listed spells prepared.\n\nBattle Smith Spells\nLevel | Spells\n3 | Heroism, Shield\n5 | Shining Smite, Warding Bond\n9 | Aura of Vitality, Conjure Barrage\n13 | Aura of Purity, Fire Shield\n17 | Banishing Smite, Mass Cure Wounds",
-              "source": "Eberron: Forge of the Artificer p. 18",
-              "subclass": "sc_artificer_battle_smith",
               "resolution": "manual"
             },
             {
@@ -129165,14 +129126,6 @@
                   ]
                 }
               ],
-              "resolution": "manual"
-            },
-            {
-              "id": "level_3_feature_25",
-              "name": "Level 3: Cartographer Spells (Cartographer)",
-              "description": "When you reach an Artificer level specified in the Cartographer Spells table, you thereafter always have the listed spells prepared. \n\nCartographer Spells:\nLevel | Spells\n3 | Faerie Fire, Guiding Bolt, Healing Word\n5 | Locate Object, Mind Spike\n9 | Call Lightning, Clairvoyance\n13 | Banishment, Locate Creature\n17 | Scrying, Teleportation Circle",
-              "source": "Eberron: Forge of the Artificer p. 20",
-              "subclass": "sc_artificer_cartographer",
               "resolution": "manual"
             },
             {
@@ -130085,13 +130038,6 @@
           "level": 3,
           "features": [
             {
-              "id": "level_3_feature_1",
-              "name": "Level 3: Barbarian Subclass",
-              "description": "You gain a Barbarian subclass of your choice. The Path of the Berserker, Path of the Wild Heart, Path of the World Tree, and Path of the Zealot subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level or lower.",
-              "source": "Player's Handbook (5.5e) p. 52",
-              "resolution": "manual"
-            },
-            {
               "id": "level_3_feature_2",
               "name": "Level 3: Primal Knowledge",
               "description": "You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1. In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and senses.",
@@ -130765,13 +130711,6 @@
             "2": 2
           },
           "features": [
-            {
-              "id": "level_3_feature_1",
-              "name": "Level 3: Bard Subclass",
-              "description": "You gain a Bard subclass of your choice. The College of Dance, College of Glamour, College of Lore, and College of Valor subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level or lower.",
-              "source": "Player's Handbook (5.5e) p. 60",
-              "resolution": "manual"
-            },
             {
               "id": "level_3_feature_3",
               "name": "Level 3: Dazzling Footwork (College of Dance)",
@@ -131546,13 +131485,6 @@
           },
           "features": [
             {
-              "id": "level_1_feature_4",
-              "name": "Level 1: Divine Order",
-              "description": "You have dedicated yourself to one of the following sacred roles of your choice.",
-              "source": "Player's Handbook (5.5e) p. 70",
-              "resolution": "manual"
-            },
-            {
               "id": "level_1_feature_5",
               "name": "Level 1: Divine Order: Protector",
               "description": "Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.",
@@ -131679,13 +131611,6 @@
             "2": 2
           },
           "features": [
-            {
-              "id": "level_3_feature_1",
-              "name": "Level 3: Cleric Subclass",
-              "description": "You gain a Cleric subclass of your choice. The Life Domain, Light Domain, Trickery Domain, and War Domain subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level or lower.",
-              "source": "Player's Handbook (5.5e) p. 71",
-              "resolution": "manual"
-            },
             {
               "id": "level_3_feature_3",
               "name": "Level 3: Life Domain Spells (Life Domain)",
@@ -131826,7 +131751,8 @@
                     "ability": "wis",
                     "min": 1
                   },
-                  "restoreAmount": "all"
+                  "restoreAmount": "all",
+                  "actionType": "reaction"
                 }
               ],
               "resolution": "manual"
@@ -133335,7 +133261,8 @@
                     "ability": "wis",
                     "min": 1
                   },
-                  "restoreAmount": "all"
+                  "restoreAmount": "all",
+                  "actionType": "reaction"
                 }
               ],
               "resolution": "manual"
@@ -134117,13 +134044,6 @@
           "level": 3,
           "cantripsKnown": 0,
           "features": [
-            {
-              "id": "level_3_feature_1",
-              "name": "Level 3: Fighter Subclass",
-              "description": "You gain a Fighter subclass of your choice. The Battle Master, Champion, Eldritch Knight, and Psi Warrior subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.",
-              "source": "Player's Handbook (5.5e) p. 92",
-              "resolution": "manual"
-            },
             {
               "id": "level_3_feature_3",
               "name": "Level 3: Combat Superiority (Battle Master)",
@@ -134956,13 +134876,6 @@
               "resolution": "manual"
             },
             {
-              "id": "level_3_feature_2",
-              "name": "Level 3: Monk Subclass",
-              "description": "You gain a Monk subclass of your choice. The Warrior of Mercy, Warrior of Shadow, Warrior of the Elements, and Warrior of the Open Hand subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower.",
-              "source": "Player's Handbook (5.5e) p. 103",
-              "resolution": "manual"
-            },
-            {
               "id": "level_3_feature_4",
               "name": "Level 3: Hand of Harm (Warrior of Mercy)",
               "description": "Once per turn when you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage equal to one roll of your Martial Arts die plus your Wisdom modifier.",
@@ -135783,13 +135696,6 @@
               "resolution": "manual"
             },
             {
-              "id": "level_3_feature_3",
-              "name": "Level 3: Paladin Subclass",
-              "description": "You gain a Paladin subclass of your choice. The Oath of Devotion, Oath of Glory, Oath of the Ancients, and Oath of Vengeance subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.",
-              "source": "Player's Handbook (5.5e) p. 111",
-              "resolution": "manual"
-            },
-            {
               "id": "level_3_feature_5",
               "name": "Level 3: Oath of Devotion Spells (Oath of Devotion)",
               "description": "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.\n\nOath of Devotion Spells:\nPaladin Level | Spells\n3 | Protection from Evil and Good, Shield of Faith\n5 | Aid, Zone of Truth\n9 | Beacon of Hope, Dispel Magic\n13 | Freedom of Movement, Guardian of Faith\n17 | Commune, Flame Strike",
@@ -136539,7 +136445,8 @@
                     "ability": "cha",
                     "min": 1
                   },
-                  "restoreAmount": "all"
+                  "restoreAmount": "all",
+                  "actionType": "reaction"
                 }
               ],
               "resolution": "manual"
@@ -137527,7 +137434,8 @@
                     "ability": "wis",
                     "min": 1
                   },
-                  "restoreAmount": "all"
+                  "restoreAmount": "all",
+                  "actionType": "reaction"
                 }
               ],
               "resolution": "manual"
@@ -138124,13 +138032,6 @@
           "cantripsKnown": 0,
           "features": [
             {
-              "id": "level_3_feature_1",
-              "name": "Level 3: Rogue Subclass",
-              "description": "You gain a Rogue subclass of your choice. The Arcane Trickster, Assassin, Soulknife, and Thief subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower.",
-              "source": "Player's Handbook (5.5e) p. 130",
-              "resolution": "manual"
-            },
-            {
               "id": "level_3_feature_2",
               "name": "Level 3: Steady Aim",
               "description": "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.",
@@ -138245,7 +138146,8 @@
                     "ability": "int",
                     "min": 1
                   },
-                  "restoreAmount": "all"
+                  "restoreAmount": "all",
+                  "actionType": "reaction"
                 }
               ],
               "resolution": "manual"
@@ -138757,13 +138659,6 @@
           },
           "features": [
             {
-              "id": "level_3_feature_1",
-              "name": "Level 3: Sorcerer Subclass",
-              "description": "You gain a Sorcerer subclass of your choice. The Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, and Wild Magic Sorcery subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level or lower.",
-              "source": "Player's Handbook (5.5e) p. 141",
-              "resolution": "manual"
-            },
-            {
               "id": "level_3_feature_3",
               "name": "Level 3: Psionic Spells (Aberrant Sorcery)",
               "description": "When you reach a Sorcerer level specified in the Psionic Spells table, you thereafter always have the listed spells prepared.\n\nPsionic Spells:\nSorcerer Level | Spells\n3 | Arms of Hadar, Calm Emotions, Detect Thoughts, Dissonant Whispers, Mind Sliver\n5 | Hunger of Hadar, Sending\n7 | Evard's Black Tentacles, Summon Aberration\n9 | Rary's Telepathic Bond, Telekinesis",
@@ -138888,7 +138783,8 @@
                     "ability": "cha",
                     "min": 1
                   },
-                  "restoreAmount": "all"
+                  "restoreAmount": "all",
+                  "actionType": "reaction"
                 }
               ],
               "resolution": "manual"
@@ -139763,13 +139659,6 @@
             "2": 2
           },
           "features": [
-            {
-              "id": "level_3_feature_1",
-              "name": "Level 3: Warlock Subclass",
-              "description": "You gain a Warlock subclass of your choice. The Archfey Patron, Celestial Patron, Fiend Patron, and Great Old One Patron subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level or lower.",
-              "source": "Player's Handbook (5.5e) p. 154",
-              "resolution": "manual"
-            },
             {
               "id": "level_3_feature_3",
               "name": "Level 3: Archfey Spells (Archfey Patron)",
@@ -140803,13 +140692,6 @@
             "2": 2
           },
           "features": [
-            {
-              "id": "level_3_feature_1",
-              "name": "Level 3: Wizard Subclass",
-              "description": "You gain a Wizard subclass of your choice. The Abjurer, Diviner, Evoker, and Illusionist subclasses are detailed after this class's description. A subclass is a specialization t hat grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level or lower.",
-              "source": "Player's Handbook (5.5e) p. 167",
-              "resolution": "manual"
-            },
             {
               "id": "level_3_feature_3",
               "name": "Level 3: Abjuration Savant (Abjurer)",
