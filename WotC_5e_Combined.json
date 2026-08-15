@@ -414732,6 +414732,7 @@
               "description": "At 1st level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial weapons. The influence of your patron also allows you to mystically channel your will through a particular weapon. Whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Pact of the Blade feature, this benefit extends to every pact weapon you conjure with that feature, no matter the weapon's type.",
               "source": "Xanathar's Guide to Everything p. 55",
               "resolution": "mixed",
+              "hidden": true,
               "subclass": "sc_warlock_the_hexblade",
               "effects": [
                 {
@@ -415573,6 +415574,7 @@
               "description": "At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again. At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest.",
               "source": "Player's Handbook (2014) p. 105",
               "resolution": "mixed",
+              "hidden": true,
               "choices": [
                 {
                   "id": "fc_warlock_mystic_arcanum_6",
