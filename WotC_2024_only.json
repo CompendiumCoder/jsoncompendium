@@ -70918,9 +70918,141 @@
           }
         }
       ]
+    },
+    {
+      "id": "m_reanimated_companion",
+      "ruleset": "5.5e",
+      "name": "Reanimated Companion",
+      "source": "Ravenloft: The Horrors Within",
+      "classification": {
+        "size": "M",
+        "type": "undead",
+        "description": "undead",
+        "alignment": "Neutral"
+      },
+      "passivePerception": 10,
+      "armorClass": {
+        "value": 10
+      },
+      "hitPoints": {
+        "average": 5
+      },
+      "movement": {
+        "walk": 30
+      },
+      "abilities": {
+        "str": 11,
+        "dex": 10,
+        "con": 16,
+        "int": 4,
+        "wis": 10,
+        "cha": 6
+      },
+      "defenses": {
+        "resistances": [
+          "necrotic",
+          "poison"
+        ],
+        "damageImmunities": [
+          "lightning"
+        ],
+        "conditionImmunities": [
+          "charmed",
+          "exhaustion",
+          "poisoned"
+        ]
+      },
+      "senses": [
+        "blindsight 60 ft."
+      ],
+      "languages": [
+        "Understands the languages you know"
+      ],
+      "traits": [
+        {
+          "id": "trait_1",
+          "name": "Proficiency Bonus",
+          "description": "PB equals your Proficiency Bonus"
+        },
+        {
+          "id": "trait_2",
+          "name": "Armor Class",
+          "description": "10 + your Intelligence modifier."
+        },
+        {
+          "id": "trait_3",
+          "name": "Hit Points",
+          "description": "5 + five times your Artificer level (the companion has a number of Hit Dice [d8s] equal to your Artificer level)."
+        },
+        {
+          "id": "trait_4",
+          "name": "Death Burst",
+          "description": "The companion explodes when it dies. Dexterity Saving Throw: DC equals your spell save DC, each creature in a 10-foot Emanation originating from the companion. Failure: 2d6 Necrotic damage. Success: Half damage."
+        },
+        {
+          "id": "trait_5",
+          "name": "Lightning Absorption",
+          "description": "Whenever the companion is subjected to Lightning damage, it regains a number of Hit Points equal to the Lightning damage dealt."
+        }
+      ],
+      "actions": [
+        {
+          "id": "action_1",
+          "name": "Dreadful Swipe",
+          "description": "Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d4 plus your Intelligence modifier Necrotic damage, and the target can't take Opportunity Attacks until the start of its next turn.",
+          "damage": {
+            "roll": "1d4",
+            "type": "necrotic"
+          }
+        }
+      ]
     }
   ],
   "items": [
+    {
+      "id": "i_ebonbane",
+      "ruleset": "5.5e",
+      "name": "Ebonbane",
+      "source": "Ravenloft: The Horrors Within",
+      "type": "Melee Weapon",
+      "rarity": "artifact",
+      "magical": true,
+      "attunement": true,
+      "equippable": true,
+      "weight": 3,
+      "proficiency": "martial, longsword",
+      "weapon": {
+        "damage": "1d8",
+        "twoHandedDamage": "1d10",
+        "damageType": "S",
+        "properties": [
+          "M",
+          "V"
+        ],
+        "mastery": "Sap"
+      },
+      "modifiers": [
+        {
+          "target": "melee_attacks",
+          "amount": 3
+        },
+        {
+          "target": "melee_damage",
+          "amount": 3
+        }
+      ],
+      "rolls": [
+        {
+          "formula": "8d8",
+          "description": "Force Damage"
+        },
+        {
+          "formula": "3d6",
+          "description": "Necrotic Damage"
+        }
+      ],
+      "description": "The Darklord of the Domain of Dread known as the Shadowlands is Ebonbane, a sapient sword. Ebonbane uses its monster stat block while in Shadowborn Manor.\n\nBound to the Shadowlands: When you enter a space outside of the Shadowlands, your Attunement immediately ends and Ebonbane teleports to somewhere in Shadowborn Manor.\n\nInsatiable Rage: The sword demands destruction. If the sword hasn't slain a Celestial or a Humanoid for 3 days, you make a DC 17 Charisma saving throw at the next dawn. On a successful save, you take 8d8 Force damage. On a failed save, you are dominated by the sword, as if by the Dominate Monster spell, and the sword demands the blood of a Celestial or a Humanoid. The spell effect ends when the sword's demand is met.\n\nMagic Weapon: You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. When you hit a Celestial or a Humanoid with it, that attack also deals 3d6 Necrotic damage. While you hold this weapon, you have Advantage on saving throws against spells and other magical effects.\n\nSentience: Ebonbane is a sentient Chaotic Evil weapon with an Intelligence of 17, a Wisdom of 14, and a Charisma of 19. It has hearing and Truesight out to 120 feet. The weapon speaks Common and can communicate with its wielder telepathically. While you are attuned to it, Ebonbane also understands every language you know.\n\nPersonality: Ebonbane was created to kill the paladin Kateri Shadowborn, and it still possesses a burning hatred for goodly knights. Ebonbane revels in seeing good defeated and hope vanquished. The sword bonds with any wielder that assists in its goals but always views its wielder as a lackey.\n\nDestroying Ebonbane: The only way to destroy Ebonbane is to forge a weapon from the Four Keys and reduce Ebonbane to 0 Hit Points with it (see the Ebonbane stat block).\n\nSap (Mastery): If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.\n\nVersatile: A Versatile weapon can be used with one or two hands. A damage value in parentheses appears with the property. The weapon deals that damage when used with two hands to make a melee attack.\n\nProficiency: martial, longsword"
+    },
     {
       "id": "i_acid",
       "ruleset": "5.5e",
