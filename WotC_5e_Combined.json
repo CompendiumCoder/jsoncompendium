@@ -426756,17 +426756,35 @@
             "Misty Step"
           ]
         },
+        "choices": [
+          {
+            "id": "fc_fey_touched_charisma_spell",
+            "type": "spell",
+            "count": 1,
+            "schools": [
+              "Divination",
+              "Enchantment"
+            ],
+            "level": 1,
+            "note": "Choose a 1st-level divination or enchantment spell."
+          }
+        ],
         "uses": [
           {
             "count": 1,
             "note": "can cast Misty Step once without a spell slot",
             "grantsSpell": "Misty Step"
+          },
+          {
+            "count": 1,
+            "note": "can cast the chosen spell once without a spell slot",
+            "grantsChoiceId": "fc_fey_touched_charisma_spell"
           }
         ],
         "spellcastingAbility": "cha"
       },
       "resolutionNotes": [
-        "The ability score increase, Misty Step, and its once-per-long-rest free cast are tracked. The second spell (a 1st-level divination or enchantment spell of your choice) has no structured pick: the feat choice schema has no school filter (only the class-feature choice schema does), and granting an unrestricted spell pick would be wrong."
+        "The ability score increase, Misty Step, the constrained 1st-level spell choice, and both once-per-long-rest free casts are tracked."
       ]
     },
     {
@@ -426785,17 +426803,35 @@
             "Misty Step"
           ]
         },
+        "choices": [
+          {
+            "id": "fc_fey_touched_intelligence_spell",
+            "type": "spell",
+            "count": 1,
+            "schools": [
+              "Divination",
+              "Enchantment"
+            ],
+            "level": 1,
+            "note": "Choose a 1st-level divination or enchantment spell."
+          }
+        ],
         "uses": [
           {
             "count": 1,
             "note": "can cast Misty Step once without a spell slot",
             "grantsSpell": "Misty Step"
+          },
+          {
+            "count": 1,
+            "note": "can cast the chosen spell once without a spell slot",
+            "grantsChoiceId": "fc_fey_touched_intelligence_spell"
           }
         ],
         "spellcastingAbility": "int"
       },
       "resolutionNotes": [
-        "The ability score increase, Misty Step, and its once-per-long-rest free cast are tracked. The second spell (a 1st-level divination or enchantment spell of your choice) has no structured pick: the feat choice schema has no school filter (only the class-feature choice schema does), and granting an unrestricted spell pick would be wrong."
+        "The ability score increase, Misty Step, the constrained 1st-level spell choice, and both once-per-long-rest free casts are tracked."
       ]
     },
     {
@@ -426814,17 +426850,35 @@
             "Misty Step"
           ]
         },
+        "choices": [
+          {
+            "id": "fc_fey_touched_wisdom_spell",
+            "type": "spell",
+            "count": 1,
+            "schools": [
+              "Divination",
+              "Enchantment"
+            ],
+            "level": 1,
+            "note": "Choose a 1st-level divination or enchantment spell."
+          }
+        ],
         "uses": [
           {
             "count": 1,
             "note": "can cast Misty Step once without a spell slot",
             "grantsSpell": "Misty Step"
+          },
+          {
+            "count": 1,
+            "note": "can cast the chosen spell once without a spell slot",
+            "grantsChoiceId": "fc_fey_touched_wisdom_spell"
           }
         ],
         "spellcastingAbility": "wis"
       },
       "resolutionNotes": [
-        "The ability score increase, Misty Step, and its once-per-long-rest free cast are tracked. The second spell (a 1st-level divination or enchantment spell of your choice) has no structured pick: the feat choice schema has no school filter (only the class-feature choice schema does), and granting an unrestricted spell pick would be wrong."
+        "The ability score increase, Misty Step, the constrained 1st-level spell choice, and both once-per-long-rest free casts are tracked."
       ]
     },
     {
@@ -426956,17 +427010,35 @@
             "Invisibility"
           ]
         },
+        "choices": [
+          {
+            "id": "fc_shadow_touched_charisma_spell",
+            "type": "spell",
+            "count": 1,
+            "schools": [
+              "Illusion",
+              "Necromancy"
+            ],
+            "level": 1,
+            "note": "Choose a 1st-level illusion or necromancy spell."
+          }
+        ],
         "uses": [
           {
             "count": 1,
             "note": "can cast Invisibility once without a spell slot",
             "grantsSpell": "Invisibility"
+          },
+          {
+            "count": 1,
+            "note": "can cast the chosen spell once without a spell slot",
+            "grantsChoiceId": "fc_shadow_touched_charisma_spell"
           }
         ],
         "spellcastingAbility": "cha"
       },
       "resolutionNotes": [
-        "The ability score increase, Invisibility, and its once-per-long-rest free cast are tracked. The second spell (a 1st-level illusion or necromancy spell of your choice) has no structured pick: the feat choice schema has no school filter (only the class-feature choice schema does), and granting an unrestricted spell pick would be wrong."
+        "The ability score increase, Invisibility, the constrained 1st-level spell choice, and both once-per-long-rest free casts are tracked."
       ]
     },
     {
@@ -426985,17 +427057,35 @@
             "Invisibility"
           ]
         },
+        "choices": [
+          {
+            "id": "fc_shadow_touched_intelligence_spell",
+            "type": "spell",
+            "count": 1,
+            "schools": [
+              "Illusion",
+              "Necromancy"
+            ],
+            "level": 1,
+            "note": "Choose a 1st-level illusion or necromancy spell."
+          }
+        ],
         "uses": [
           {
             "count": 1,
             "note": "can cast Invisibility once without a spell slot",
             "grantsSpell": "Invisibility"
+          },
+          {
+            "count": 1,
+            "note": "can cast the chosen spell once without a spell slot",
+            "grantsChoiceId": "fc_shadow_touched_intelligence_spell"
           }
         ],
         "spellcastingAbility": "int"
       },
       "resolutionNotes": [
-        "The ability score increase, Invisibility, and its once-per-long-rest free cast are tracked. The second spell (a 1st-level illusion or necromancy spell of your choice) has no structured pick: the feat choice schema has no school filter (only the class-feature choice schema does), and granting an unrestricted spell pick would be wrong."
+        "The ability score increase, Invisibility, the constrained 1st-level spell choice, and both once-per-long-rest free casts are tracked."
       ]
     },
     {
@@ -427014,17 +427104,35 @@
             "Invisibility"
           ]
         },
+        "choices": [
+          {
+            "id": "fc_shadow_touched_wisdom_spell",
+            "type": "spell",
+            "count": 1,
+            "schools": [
+              "Illusion",
+              "Necromancy"
+            ],
+            "level": 1,
+            "note": "Choose a 1st-level illusion or necromancy spell."
+          }
+        ],
         "uses": [
           {
             "count": 1,
             "note": "can cast Invisibility once without a spell slot",
             "grantsSpell": "Invisibility"
+          },
+          {
+            "count": 1,
+            "note": "can cast the chosen spell once without a spell slot",
+            "grantsChoiceId": "fc_shadow_touched_wisdom_spell"
           }
         ],
         "spellcastingAbility": "wis"
       },
       "resolutionNotes": [
-        "The ability score increase, Invisibility, and its once-per-long-rest free cast are tracked. The second spell (a 1st-level illusion or necromancy spell of your choice) has no structured pick: the feat choice schema has no school filter (only the class-feature choice schema does), and granting an unrestricted spell pick would be wrong."
+        "The ability score increase, Invisibility, the constrained 1st-level spell choice, and both once-per-long-rest free casts are tracked."
       ]
     },
     {
