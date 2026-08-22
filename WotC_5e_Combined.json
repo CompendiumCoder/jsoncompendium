@@ -429436,6 +429436,23 @@
         "level": 12,
         "pactBoon": "blade"
       },
+      "effects": [
+        {
+          "type": "attack",
+          "mode": "bonus_damage",
+          "amount": {
+            "kind": "ability_mod",
+            "ability": "cha",
+            "min": 1
+          },
+          "damageType": "necrotic",
+          "gate": {
+            "weaponFilters": [
+              "pact_weapon"
+            ]
+          }
+        }
+      ],
       "description": [
         "Prerequisite: 12th level, Pact of the Blade When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1)."
       ]
