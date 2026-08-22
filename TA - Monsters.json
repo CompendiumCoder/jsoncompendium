@@ -253,7 +253,11 @@
         {
           "id": "action_3",
           "name": "Choral Dirge (Costs 3 Actions).",
-          "description": "Each creature currently charmed by the intoner must make a DC 17 Constitution\n\t\t\t\tsaving throw, taking 36 (8d8) psychic damage on a failed save, or half as much\n\t\t\t\tdamage on a successful one and is no longer charmed. The targets&#x2019; hit point\n\t\t\t\tmaximum is reduced by an amount equal to the damage taken. This reduction lasts\n\t\t\t\tuntil the target finishes a long rest. The target dies if this effect reduces its\n\t\t\t\thit point maximum to 0."
+          "description": "Each creature currently charmed by the intoner must make a DC 17 Constitution\n\t\t\t\tsaving throw, taking 36 (8d8) psychic damage on a failed save, or half as much\n\t\t\t\tdamage on a successful one and is no longer charmed. The targets&#x2019; hit point\n\t\t\t\tmaximum is reduced by an amount equal to the damage taken. This reduction lasts\n\t\t\t\tuntil the target finishes a long rest. The target dies if this effect reduces its\n\t\t\t\thit point maximum to 0.",
+          "damage": {
+            "roll": "8d8",
+            "type": "psychic"
+          }
         }
       ]
     },
@@ -325,12 +329,32 @@
         {
           "id": "action_1",
           "name": "Light Hammer",
-          "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., or range 20/60 ft., one\n\t\t\t\ttarget. Hit 5 (1d4+3) bludgeoning damage."
+          "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., or range 20/60 ft., one\n\t\t\t\ttarget. Hit 5 (1d4+3) bludgeoning damage.",
+          "attack": {
+            "toHit": 5,
+            "reach": "5ft",
+            "range": "WeaponAttack:+5tohit",
+            "melee": true,
+            "ranged": true
+          },
+          "damage": {
+            "roll": "1d4+3",
+            "type": "bludgeoning"
+          }
         },
         {
           "id": "action_2",
           "name": "Hook",
-          "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 7 (1d8+3) piercing\n\t\t\t\tdamage, and the target is grappled (escape DC 13)."
+          "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 7 (1d8+3) piercing\n\t\t\t\tdamage, and the target is grappled (escape DC 13).",
+          "attack": {
+            "toHit": 5,
+            "reach": "5ft",
+            "melee": true
+          },
+          "damage": {
+            "roll": "1d8+3",
+            "type": "piercing"
+          }
         }
       ]
     }
