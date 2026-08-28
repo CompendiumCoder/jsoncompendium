@@ -104279,6 +104279,10 @@
       "attunement": true,
       "equippable": true,
       "weight": 2,
+      "uses": {
+        "max": 1,
+        "recover": 1
+      },
       "modifiers": [
         {
           "target": "ac",
@@ -104405,6 +104409,10 @@
       "attunement": "a warlock",
       "equippable": true,
       "weight": 2,
+      "uses": {
+        "max": 1,
+        "recover": 1
+      },
       "modifiers": [
         {
           "target": "spell_attack",
@@ -104428,6 +104436,10 @@
       "attunement": "a warlock",
       "equippable": true,
       "weight": 2,
+      "uses": {
+        "max": 1,
+        "recover": 1
+      },
       "modifiers": [
         {
           "target": "spell_attack",
@@ -104451,6 +104463,10 @@
       "attunement": "a warlock",
       "equippable": true,
       "weight": 2,
+      "uses": {
+        "max": 1,
+        "recover": 1
+      },
       "modifiers": [
         {
           "target": "spell_attack",
