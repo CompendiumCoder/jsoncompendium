@@ -23,7 +23,7 @@
       },
       "modifiers": [
         {
-          "target": "melee_attacks",
+          "target": "spell_attack",
           "amount": 2
         },
         {
@@ -127,26 +127,30 @@
       "rarity": "legendary",
       "magical": true,
       "weight": 4,
-      "proficiency": "simple, mace",
+      "proficiency": "simple, club",
       "weapon": {
-        "damage": "1d10+3",
-        "damageType": "B"
+        "damage": "1d4",
+        "damageType": "B",
+        "properties": [
+          "L"
+        ]
       },
       "modifiers": [
         {
           "target": "melee_attacks",
-          "amount": 3
+          "amount": 2
         },
         {
           "target": "melee_damage",
-          "amount": 1
+          "amount": 2
         }
       ],
       "description": [
         "Lathander's Blessing: Once per Long Rest, when your hit points are reduced to 0, you regain 2-12 hit points. Allies within 9m also regain 1-6 hit points.",
         "Lathander's Light: Sheds holy light in a 6m radius. In combat, fiends and undead standing in the light are Blinded, unlesss they succeed a Constitution Saving Throw.",
         "Grants Sunbeam (Level 6 Evocation Spell) once per Long Rest",
-        "Proficiency: simple, mace"
+        "This magic club grants a +2 bonus to attack and damage rolls.",
+        "Proficiency: simple, club"
       ]
     },
     {
@@ -396,6 +400,10 @@
       },
       "modifiers": [
         {
+          "target": "melee_attacks",
+          "amount": 2
+        },
+        {
           "target": "melee_damage",
           "amount": 2
         }
@@ -527,11 +535,11 @@
       "modifiers": [
         {
           "target": "melee_attacks",
-          "amount": 1
+          "amount": 2
         },
         {
           "target": "melee_damage",
-          "amount": 3
+          "amount": 2
         }
       ],
       "rolls": [
@@ -555,7 +563,7 @@
       "magical": true,
       "weight": 3,
       "weapon": {
-        "damage": "1d8+2",
+        "damage": "1d8",
         "damageType": "S"
       },
       "modifiers": [
@@ -794,25 +802,12 @@
       "ruleset": "5.5e",
       "name": "Lute of Set",
       "source": "Tarentha Arcana",
-      "type": "Melee Weapon",
+      "type": "Wondrous",
       "rarity": "rare",
       "magical": true,
       "attunement": true,
+      "equippable": true,
       "weight": 6,
-      "weapon": {
-        "damage": "1d8+1",
-        "damageType": "S"
-      },
-      "modifiers": [
-        {
-          "target": "melee_damage",
-          "amount": 1
-        },
-        {
-          "target": "melee_attacks",
-          "amount": 1
-        }
-      ],
       "description": [
         "this lute is shaped like a battle axe. The neck is distinctively snake shaped.",
         "Once a day, you can strum a specific song to cast: Sending."
@@ -823,22 +818,22 @@
       "ruleset": "5.5e",
       "name": "Moonlight Harp",
       "source": "Tarentha Arcana",
-      "type": "Melee Weapon",
+      "type": "Ranged Weapon",
       "rarity": "rare",
       "magical": true,
       "attunement": true,
       "weight": 6,
       "weapon": {
-        "damage": "1d6+1",
-        "damageType": "S"
+        "damage": "1d6",
+        "damageType": "P"
       },
       "modifiers": [
         {
-          "target": "melee_damage",
+          "target": "ranged_damage",
           "amount": 1
         },
         {
-          "target": "melee_attacks",
+          "target": "ranged_attacks",
           "amount": 1
         }
       ],

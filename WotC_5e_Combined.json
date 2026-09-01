@@ -7424,11 +7424,11 @@
       "modifiers": [
         {
           "target": "melee_attacks",
-          "amount": 1
+          "amount": 3
         },
         {
           "target": "melee_damage",
-          "amount": 1
+          "amount": 3
         }
       ],
       "rolls": [
@@ -16757,11 +16757,11 @@
       "modifiers": [
         {
           "target": "weapon_attacks",
-          "amount": 1
+          "amount": 3
         },
         {
           "target": "weapon_damage",
-          "amount": 1
+          "amount": 3
         }
       ],
       "description": "Ammo: arrow\n\nNylea wields the shortbow Ephixis, the bow whose arrows herald the turning of the seasons. Nylea is quick to let her favored followers borrow her bow, particularly when they intend to use it to perform great deeds, put an end to foul creatures, or cast down the arrogant.\n\nBow of the Wild: This divine weapon includes a shortbow and a quiver with four arrows, each tied to one of the four seasons. You gain a +3 bonus to attack and damage rolls made with this bow, and you suffer no disadvantage when attacking at the weapon's long range. Additionally, Ephixis scores a critical hit on a d20 roll of 19 or 20.\n\nBlessing of the Wild: If you are a worshiper of Nylea, you gain all the following benefits for which you have the required piety:\n\n• Piety 10+: The bow has 1 randomly determined minor beneficial property.\n• Piety 25+: The bow has 1 randomly determined major beneficial property.\n\nIf you aren't a worshiper of Nylea, the bow has 1 randomly determined major detrimental property. See \"Artifacts\" in chapter 7 of the Dungeon Master's Guide for details on randomly determined properties.\n\nArrows of the Seasons: The four arrows—each associated with a season—that accompany this bow can be fired only from it. Each arrow disappears immediately after it's used, and it reappears in the quiver at the next dusk. The save DC against spells cast with the arrows is 18. Each arrow has a unique property:\n\n• Spring: As an action, you can fire this arrow, targeting a beast or a plant creature you can see within 320 feet of you. On a hit, the arrow deals no damage, and the target gains the benefits of the awaken spell for 8 hours.\n\n• Summer: As an action, you can fire this arrow at an unoccupied space on the ground that you can see within 320 feet of you, no attack roll required. A Nyxborn lynx is summoned in that space (use the stat block for a tiger with the Nyxborn traits from chapter 6). The lynx understands your verbal commands and obeys them as best it can, and it takes its turns immediately after yours. The emissary remains for 1 hour before fading away.\n\n• Autumn: As an action, you can fire this arrow at a space on the ground that you can see within 320 feet of you, no attack roll required, casting the wall of thorns spell there.\n\n• Winter: As an action, you can fire this arrow at a space that you can see within 320 feet of you, no attack roll required, casting the ice storm spell there.\n\nDestroying the Bow: The bow can't be destroyed without first destroying all its arrows. The winter arrow must be fed to a cerberus on the winter solstice. The spring arrow must be planted at the base of a Black Oak of Asphodel on the spring equinox. The summer arrow must be broken by a sea giant on the summer solstice. Then the autumn arrow must be shot into the carcass of a hydra on the autumnal equinox. When all four arrows are destroyed, the bow and quiver dissolve into dust.\n\nAmmunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. The ammunition of a firearm is destroyed upon use. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield. If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\").\n\nRange: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.\n\nTwo-Handed: This weapon requires two hands when you attack with it.\n\nProficiency: simple, shortbow"
@@ -19818,11 +19818,11 @@
       "modifiers": [
         {
           "target": "weapon_attacks",
-          "amount": 1
+          "amount": 3
         },
         {
           "target": "weapon_damage",
-          "amount": 1
+          "amount": 3
         }
       ],
       "description": "This magic weapon grants a +3 bonus to attack and damage rolls made with it. While you hold the sword, you have advantage on Intelligence, Wisdom, and Charisma saving throws, you are immune to being charmed, and you have resistance to psychic damage. In addition, if you score a critical hit with it against a creature's astral body, you can cut the silvery cord that tethers the target to its material body, instead of dealing damage.\n\nTwo-Handed: This weapon requires two hands when you attack with it.\n\nHeavy: Creatures that are Small or Tiny have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small or Tiny creature to use effectively.\n\nProficiency: martial, greatsword"
@@ -33979,11 +33979,11 @@
       "modifiers": [
         {
           "target": "melee_attacks",
-          "amount": 1
+          "amount": 2
         },
         {
           "target": "melee_damage",
-          "amount": 1
+          "amount": 2
         }
       ],
       "rolls": [
@@ -35684,11 +35684,11 @@
       "modifiers": [
         {
           "target": "melee_attacks",
-          "amount": 1
+          "amount": 3
         },
         {
           "target": "melee_damage",
-          "amount": 1
+          "amount": 3
         }
       ],
       "description": "You have a +3 bonus to attack and damage rolls made with this magic weapon. On a critical hit against a target in an astral body (as with the astral projection spell), you can cut the silvery cord that tethers the target to its material body, instead of dealing damage.\n\nTwo-Handed: This weapon requires two hands when you attack with it.\n\nHeavy: Creatures that are Small or Tiny have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small or Tiny creature to use effectively.\n\nProficiency: martial, longsword"
@@ -35932,11 +35932,11 @@
       "modifiers": [
         {
           "target": "weapon_attacks",
-          "amount": 1
+          "amount": 2
         },
         {
           "target": "weapon_damage",
-          "amount": 1
+          "amount": 2
         }
       ],
       "rolls": [
@@ -41828,11 +41828,11 @@
       "modifiers": [
         {
           "target": "melee_attacks",
-          "amount": 1
+          "amount": 2
         },
         {
           "target": "melee_damage",
-          "amount": 1
+          "amount": 2
         }
       ],
       "rolls": [
