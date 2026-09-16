@@ -4,6 +4,20 @@
   "exportedAt": "2026-07-03T21:48:06.913Z",
   "bastions": [
     {
+      "id": "bastion_rules",
+      "ruleset": "5.5e",
+      "schemaVersion": 2,
+      "kind": "rules",
+      "name": "Bastion Rules",
+      "nameKey": "bastion-rules",
+      "specialFacilitySlots": [
+        { "level": 5, "count": 2 },
+        { "level": 9, "count": 4 },
+        { "level": 13, "count": 5 },
+        { "level": 17, "count": 6 }
+      ]
+    },
+    {
       "id": "bastion_space_cramped",
       "ruleset": "5.5e",
       "schemaVersion": 2,
@@ -12,7 +26,9 @@
       "nameKey": "cramped",
       "squares": 4,
       "label": "4 squares",
-      "sort": 0
+      "sort": 0,
+      "basicAdd": { "costGp": 500, "days": 20 },
+      "basicUpgrade": { "to": "roomy", "costGp": 500, "days": 25 }
     },
     {
       "id": "bastion_space_roomy",
@@ -23,7 +39,9 @@
       "nameKey": "roomy",
       "squares": 16,
       "label": "16 squares",
-      "sort": 1
+      "sort": 1,
+      "basicAdd": { "costGp": 1000, "days": 45 },
+      "basicUpgrade": { "to": "vast", "costGp": 2000, "days": 80 }
     },
     {
       "id": "bastion_space_vast",
@@ -34,7 +52,8 @@
       "nameKey": "vast",
       "squares": 36,
       "label": "36 squares",
-      "sort": 2
+      "sort": 2,
+      "basicAdd": { "costGp": 3000, "days": 125 }
     },
     {
       "id": "bastion_order_craft",
@@ -112,7 +131,8 @@
       "orders": [],
       "space": null,
       "hirelings": 0,
-      "allowMultiple": false,
+      "spaces": ["cramped", "roomy", "vast"],
+      "allowMultiple": true,
       "description": "A basic facility with nonmagical furnishings and decor appropriate for sleeping quarters."
     },
     {
@@ -128,7 +148,8 @@
       "orders": [],
       "space": null,
       "hirelings": 0,
-      "allowMultiple": false,
+      "spaces": ["cramped", "roomy", "vast"],
+      "allowMultiple": true,
       "description": "A basic facility with nonmagical furnishings and decor appropriate for an open-air space."
     },
     {
@@ -144,7 +165,8 @@
       "orders": [],
       "space": null,
       "hirelings": 0,
-      "allowMultiple": false,
+      "spaces": ["cramped", "roomy", "vast"],
+      "allowMultiple": true,
       "description": "A basic facility with nonmagical furnishings and decor appropriate for dining."
     },
     {
@@ -160,7 +182,8 @@
       "orders": [],
       "space": null,
       "hirelings": 0,
-      "allowMultiple": false,
+      "spaces": ["cramped", "roomy", "vast"],
+      "allowMultiple": true,
       "description": "A basic facility with nonmagical furnishings and decor appropriate for preparing food."
     },
     {
@@ -176,7 +199,8 @@
       "orders": [],
       "space": null,
       "hirelings": 0,
-      "allowMultiple": false,
+      "spaces": ["cramped", "roomy", "vast"],
+      "allowMultiple": true,
       "description": "A basic facility with nonmagical furnishings and decor appropriate for social gatherings."
     },
     {
@@ -192,7 +216,8 @@
       "orders": [],
       "space": null,
       "hirelings": 0,
-      "allowMultiple": false,
+      "spaces": ["cramped", "roomy", "vast"],
+      "allowMultiple": true,
       "description": "A basic facility with nonmagical furnishings and decor appropriate for storing goods."
     },
     {
@@ -208,8 +233,8 @@
       "orders": [
         "Craft"
       ],
-      "space": null,
-      "hirelings": null,
+      "space": "Roomy",
+      "hirelings": 1,
       "allowMultiple": false,
       "description": "An Arcane Study is a place of quiet research that contains one or more desks and bookshelves.\n\nArcane Study Charm. After spending a Long Rest in your Bastion, you gain a magical Charm that lasts for 7 days or until you use it. The Charm allows you to cast Identify without expending a spell slot or using Material components. You can’t gain this Charm again while you still have it.\n\nCraft Options:\n- Craft: Arcane Focus. Work takes 7 days and costs no money.\n- Craft: Book. Work takes 7 days and costs 10 GP.\n- Craft: Magic Item (Arcana). If you are level 9+, a hireling can craft a Common or Uncommon magic item from the Arcana tables, using chapter 7 crafting rules."
     },
@@ -247,6 +272,7 @@
       "space": "Roomy",
       "hirelings": 1,
       "allowMultiple": true,
+      "upgrade": { "to": "vast", "costGp": 2000, "summary": "Houses up to 25 Bastion Defenders instead of 12" },
       "description": "A Barrack serves as sleeping quarters for up to twelve Bastion Defenders. A Bastion can have more than one.\n\nRecruit: Bastion Defenders. Each Recruit order adds up to four Bastion Defenders at no cost, provided the Barrack is not full.\n\nEnlarging the Facility. You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
     },
     {
@@ -265,6 +291,7 @@
       "space": "Roomy",
       "hirelings": 1,
       "allowMultiple": true,
+      "upgrade": { "to": "vast", "costGp": 2000, "hirelingsDelta": 1, "summary": "Counts as two Roomy Gardens, each producing its own harvest" },
       "description": "A Bastion can have more than one Garden. Each Garden has a type: Decorative, Food, Herb, or Poison.\n\nHarvest: Garden Growth. Work takes 7 days and costs no money.\n\nGarden Types:\n- Decorative: ten floral bouquets worth 5 GP each, ten vials of perfume, or ten candles\n- Food: 100 days worth of rations\n- Herb: herbs for ten healer’s kits or one potion of healing\n- Poison: plants for two vials of antitoxin or one vial of basic poison\n\nA Garden can be changed to another type in 21 days. Enlarging to Vast costs 2,000 GP; a Vast Garden counts as two Roomy Gardens and gains one additional hireling."
     },
     {
@@ -298,8 +325,8 @@
       "orders": [
         "Craft"
       ],
-      "space": null,
-      "hirelings": null,
+      "space": "Roomy",
+      "hirelings": 1,
       "allowMultiple": false,
       "description": "Icons of your religion are displayed in this facility, which includes a quiet place for worship.\n\nSanctuary Charm. After spending a Long Rest in your Bastion, you gain a magical Charm that allows you to cast Healing Word once without expending a spell slot. The Charm lasts 7 days or until used.\n\nCraft: Sacred Focus. Work takes 7 days and costs no money. Produces a Druidic Focus (wooden staff) or Holy Symbol."
     },
@@ -355,6 +382,7 @@
       "space": "Roomy",
       "hirelings": 3,
       "allowMultiple": false,
+      "upgrade": { "to": "vast", "costGp": 2000, "hirelingsDelta": 2, "summary": "Three additional Artisan's Tools" },
       "description": "This Workshop is a creative space where useful items can be crafted. It comes equipped with six different kinds of Artisan’s Tools.\n\nCraft Options:\n- Craft: Adventuring Gear. Craft anything that can be made with the tools chosen for the Workshop.\n- Craft: Magic Item (Implement). If you are level 9+, hirelings can craft a Common or Uncommon magic item from the Implements tables, using chapter 7 crafting rules.\n\nSource of Inspiration. After spending an entire Short Rest in your Workshop, you gain Heroic Inspiration. You can’t gain this again until you finish a Long Rest.\n\nEnlarging the Facility. Enlarging to Vast costs 2,000 GP and adds two hirelings and three additional Artisan’s Tools."
     },
     {
@@ -424,8 +452,8 @@
       "orders": [
         "Craft"
       ],
-      "space": null,
-      "hirelings": null,
+      "space": "Roomy",
+      "hirelings": 1,
       "allowMultiple": false,
       "description": "A Sacristy serves as a preparation and storage room for sacred items and religious vestments.\n\nCraft Options:\n- Craft: Holy Water. Work takes 7 days and costs no money. You may spend up to 500 GP to increase its damage by 1d8 per 100 GP.\n- Craft: Magic Item (Relic). Craft a Common or Uncommon magic item from the Relics tables, using chapter 7 crafting rules.\n\nSpell Refreshment. After an entire Short Rest in your Bastion, you can regain one expended spell slot of level 5 or lower. You can’t gain this benefit again until you finish a Long Rest."
     },
@@ -463,6 +491,7 @@
       "space": "Roomy",
       "hirelings": 1,
       "allowMultiple": true,
+      "upgrade": { "to": "vast", "costGp": 2000, "summary": "Houses up to six Large animals instead of three" },
       "description": "A Bastion can have more than one Stable. Each Stable starts with one Riding Horse or Camel and two Ponies or Mules. It houses three Large animals, or equivalent smaller creatures.\n\nAfter a Beast that can serve as a mount spends at least 14 days here, Animal Handling checks regarding it have Advantage.\n\nTrade: Animals. Over 7 days, buy or sell mounts at normal cost. Sale profit bonus:\n- 20% base\n- 50% at level 13\n- 100% at level 17\n\nEnlarging the Facility. Enlarging to Vast costs 2,000 GP and allows housing up to six Large animals."
     },
     {
@@ -553,6 +582,7 @@
       "space": "Roomy",
       "hirelings": 1,
       "allowMultiple": false,
+      "upgrade": { "to": "vast", "costGp": 2000, "summary": "Two additional reference books" },
       "description": "An Archive is a repository of valuable books, maps, and scrolls, often attached to a Library.\n\nResearch: Helpful Lore. Work takes 7 days. The hireling gains knowledge as if they had cast Legend Lore, then shares it with you.\n\nReference Book. The Archive contains one rare reference book that grants Advantage on a corresponding Intelligence study action in your Bastion.\n\nEnlarging the Facility. Enlarging to Vast costs 2,000 GP and grants two additional reference books."
     },
     {
@@ -625,6 +655,7 @@
       "space": "Roomy",
       "hirelings": 1,
       "allowMultiple": false,
+      "upgrade": { "to": "vast", "costGp": 2000, "hirelingsDelta": 3, "summary": "Two magical beverages on tap at a time" },
       "description": "A Pub is a social space such as a bar, coffee shop, or tea room. The bartender maintains a spy network.\n\nResearch: Information Gathering. Over the next 7 days, spies report important events within 10 miles and can reveal the location of a familiar creature within 50 miles, if not protected by magic or beyond their reach.\n\nPub Special. The Pub has one magical beverage on tap, chosen from:\n- Bigby’s Burden\n- Kiss of the Spider Queen\n- Moonlight Serenade\n- Positive Reinforcement\n- Sterner Stuff\n\nEnlarging the Facility. Enlarging to Vast costs 2,000 GP, allows two magical beverages on tap at once, and increases hirelings to 4."
     },
     {
@@ -640,8 +671,8 @@
       "orders": [
         "Harvest"
       ],
-      "space": null,
-      "hirelings": null,
+      "space": "Cramped",
+      "hirelings": 1,
       "allowMultiple": false,
       "description": "This vault holds sacred objects.\n\nReliquary Charm. After spending a Long Rest in your Bastion, you gain a magical Charm that allows you to cast Greater Restoration once without expending a spell slot or Material components. The Charm lasts 7 days or until used.\n\nHarvest: Talisman. In 7 days and at no cost, the hireling prepares a Tiny, nonmagical object of religious significance. It can replace one spell’s Material components costing 1,000 GP or less, and is not consumed if the spell normally consumes them. After use, it must be returned to the Reliquary and prepared again with another Harvest order."
     },
@@ -658,8 +689,8 @@
       "orders": [
         "Empower"
       ],
-      "space": null,
-      "hirelings": null,
+      "space": "Vast",
+      "hirelings": 1,
       "allowMultiple": false,
       "description": "A door appears on a flat, solid surface in one of your Bastion’s other facilities and leads to an extradimensional stone room. Only you and Bastion hirelings can open it.\n\nEmpower: Arcane Resilience. For 7 days, magical runes grant you Temporary Hit Points equal to five times your level after an entire Long Rest in the Demiplane.\n\nFabrication. Once per Long Rest, while in the Demiplane, you can create a small nonmagical object worth no more than 5 GP from allowed materials."
     },
@@ -694,8 +725,8 @@
       "orders": [
         "Empower"
       ],
-      "space": null,
-      "hirelings": null,
+      "space": "Roomy",
+      "hirelings": 4,
       "allowMultiple": false,
       "description": "A Sanctum is a place of solace and healing.\n\nSanctum Charm. After a Long Rest in your Bastion, you gain a magical Charm allowing you to cast Heal once without a spell slot. The Charm lasts 7 days or until used.\n\nEmpower: Fortifying Rites. For 7 days, the beneficiary of the rites gains Temporary Hit Points equal to your level after each Long Rest.\n\nSanctum Recall. You always have Word of Recall prepared, and the Sanctum can be its destination. One creature arriving there via the spell also gains the benefit of Heal."
     },
